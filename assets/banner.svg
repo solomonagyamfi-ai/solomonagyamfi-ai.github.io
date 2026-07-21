@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Solomon Gyamfi — HR and Data Analytics Professional</title>
+  <desc id="desc">Professional navy and teal portfolio banner with an SG monogram and analytics theme.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102B43"/>
+      <stop offset="1" stop-color="#176B87"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <circle cx="150" cy="150" r="88" fill="#2AA198"/>
+  <circle cx="150" cy="150" r="72" fill="#17324D" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="150" y="174" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="66" font-weight="700">SG</text>
+  <text x="280" y="112" fill="#ffffff" font-family="Arial, sans-serif" font-size="46" font-weight="700">SOLOMON GYAMFI</text>
+  <text x="282" y="158" fill="#AEE8E3" font-family="Arial, sans-serif" font-size="25" font-weight="600">HR &amp; DATA ANALYTICS PROFESSIONAL</text>
+  <text x="282" y="206" fill="#E6F2F5" font-family="Arial, sans-serif" font-size="22">Turning business questions into practical decisions.</text>
+  <g transform="translate(920 75)" fill="none" stroke="#AEE8E3" stroke-width="7" stroke-linecap="round">
+    <path d="M0 140 V100 M58 140 V55 M116 140 V85 M174 140 V15"/>
+    <path d="M-12 150 H195" stroke-opacity="0.55" stroke-width="3"/>
+    <circle cx="0" cy="100" r="7" fill="#D8A83E" stroke="none"/>
+    <circle cx="58" cy="55" r="7" fill="#D8A83E" stroke="none"/>
+    <circle cx="116" cy="85" r="7" fill="#D8A83E" stroke="none"/>
+    <circle cx="174" cy="15" r="7" fill="#D8A83E" stroke="none"/>
+  </g>
+</svg>
+

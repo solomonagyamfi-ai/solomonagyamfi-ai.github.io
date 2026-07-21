@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local data and secrets
+.env
+*.env
+data/private/
+data/raw_confidential/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Power BI temporary files
+*.tmp
+~$*.pbix
+
