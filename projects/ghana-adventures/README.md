@@ -98,6 +98,10 @@ Additional observations:
 
 The final output converted booking records into a clear off-season marketing strategy. It gave decision-makers a concise view of when demand was weakest, which customers were most valuable and which actions could increase demand without depending on deep discounts.
 
+## Presentation
+
+[Download my original Ghana Adventures PowerPoint presentation](../../downloads/Ghana-Adventures-Assignment-Solomon-Gyamfi.pptx)
+
 ## Repository assets to include
 
 When publishing the complete project repository, include:

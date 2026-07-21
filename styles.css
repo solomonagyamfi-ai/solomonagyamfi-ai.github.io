@@ -133,6 +133,7 @@ p { margin-top: 0; }
 .tag-list span { padding: .35rem .6rem; color: var(--blue-700); background: #e9f3f6; border-radius: 999px; font-size: .73rem; font-weight: 700; }
 .text-link { width: fit-content; color: var(--navy-900); font-weight: 800; text-decoration: none; }
 .text-link:hover { color: var(--teal-600); }
+.project-links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .8rem; }
 
 .process-list { display: grid; grid-template-columns: repeat(4, 1fr); padding: 0; margin: 0; border-block: 1px solid var(--line); list-style: none; }
 .process-list li { min-height: 230px; padding: 1.8rem 1.2rem; border-right: 1px solid var(--line); }
