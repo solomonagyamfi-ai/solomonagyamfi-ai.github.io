@@ -100,7 +100,7 @@ The final output converted booking records into a clear off-season marketing str
 
 ## Presentation
 
-[Download my original Ghana Adventures PowerPoint presentation](../../downloads/Ghana-Adventures-Assignment-Solomon-Gyamfi.pptx)
+[Preview my Ghana Adventures PowerPoint presentation](../../presentation.html) before downloading the original file.
 
 ## Repository assets to include
 

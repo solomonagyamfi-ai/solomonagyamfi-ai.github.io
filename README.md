@@ -54,7 +54,7 @@ Analysed booking, revenue, seasonality, customer loyalty and channel data to det
 
 **Business outcome:** Recommended targeted digital campaigns, customer retargeting, experience bundles, group offers and loyalty benefits rather than relying on deep discounts.
 
-**Presentation:** [Download my original Ghana Adventures PowerPoint](downloads/Ghana-Adventures-Assignment-Solomon-Gyamfi.pptx)
+**Presentation:** [Preview the Ghana Adventures PowerPoint](presentation.html) before downloading the original file.
 
 ---
 
