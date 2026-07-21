@@ -84,7 +84,7 @@ p { margin-top: 0; }
 .section-heading { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(260px, .7fr); gap: 4rem; align-items: end; margin-bottom: 3rem; }
 .section-heading h2 { margin-bottom: 0; }
 .section-heading > p { margin-bottom: .4rem; color: var(--muted); }
-.skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; }
 .skill-card { min-height: 270px; padding: 1.6rem; border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--white); transition: transform .25s ease, box-shadow .25s ease, border .25s ease; }
 .skill-card:hover { transform: translateY(-6px); border-color: #b8dcd9; box-shadow: var(--shadow); }
 .skill-index { display: inline-grid; width: 42px; height: 42px; place-items: center; margin-bottom: 2.6rem; color: var(--teal-600); background: var(--teal-100); border-radius: 12px; font-size: .78rem; font-weight: 800; }

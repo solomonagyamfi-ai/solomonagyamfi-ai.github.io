@@ -35,7 +35,7 @@ I work with **Power BI, Excel, SQL and Python** to clean data, identify meaningf
 | **Databases** | SQL, MySQL, joins, aggregations, `CASE`, `GROUP BY`, `HAVING` and business queries |
 | **Programming** | Python, Pandas, NumPy, Matplotlib, OpenPyXL and virtual environments |
 | **Business communication** | Insight summaries, management reports, presentations and actionable recommendations |
-| **Graphic design** | Presentation design, flyers, social-media artwork, banners, brochures, staff communications and visual storytelling |
+| **Graphic design** | Proficient in Adobe Photoshop and Illustrator; presentation design, image editing, vector artwork, flyers, social-media artwork, banners and visual storytelling |
 
 ## Featured case studies
 
