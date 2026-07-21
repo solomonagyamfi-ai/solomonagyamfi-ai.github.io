@@ -114,4 +114,3 @@ When publishing the complete project repository, include:
 Individual training case study developed during data analytics learning. The business scenario and dataset should be credited to the relevant programme or source when the original files are published.
 
 [← Back to portfolio](../../README.md)
-

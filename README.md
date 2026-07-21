@@ -4,7 +4,7 @@
 
 # Hi, I'm Solomon Gyamfi
 
-### HR & Data Analytics Professional | Power BI • Excel • SQL • Python
+### HR, Data Analytics & Graphic Design Professional | Power BI • Excel • SQL • Python • Visual Communication
 
 [![Email](https://img.shields.io/badge/Email-solomonagyamfi%40gmail.com-17324D?style=flat-square&logo=gmail&logoColor=white)](mailto:solomonagyamfi@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Solomon%20Gyamfi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/solomon-gyamfi-aa02b91a8)
@@ -22,7 +22,7 @@ This repository includes a complete, responsive GitHub Pages website built with 
 
 ## About me
 
-I am an HR professional building a career in data analytics, with practical experience using data to support people, operations and business decisions. My strength is connecting analytical work to real organisational needs—from understanding customer booking behaviour to reporting workforce, attendance, fleet and operational trends.
+I am an HR professional building a career in data analytics, with practical experience using data to support people, operations and business decisions. I also bring graphic design experience, allowing me to present insights and professional communications through clear, engaging visuals.
 
 I work with **Power BI, Excel, SQL and Python** to clean data, identify meaningful patterns and communicate findings clearly. My goal is simple: turn business questions into practical, evidence-based decisions.
 
@@ -35,6 +35,7 @@ I work with **Power BI, Excel, SQL and Python** to clean data, identify meaningf
 | **Databases** | SQL, MySQL, joins, aggregations, `CASE`, `GROUP BY`, `HAVING` and business queries |
 | **Programming** | Python, Pandas, NumPy, Matplotlib, OpenPyXL and virtual environments |
 | **Business communication** | Insight summaries, management reports, presentations and actionable recommendations |
+| **Graphic design** | Presentation design, flyers, social-media artwork, banners, brochures, staff communications and visual storytelling |
 
 ## Featured case studies
 
