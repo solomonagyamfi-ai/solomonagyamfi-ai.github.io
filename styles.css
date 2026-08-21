@@ -193,6 +193,55 @@ p { margin-top: 0; }
 .case-metrics span { color: var(--muted); font-size: .72rem; }
 .ethics-note { margin-bottom: 1.4rem; padding: 1rem; color: var(--navy-800); border-left: 4px solid var(--gold-500); background: #fff9ea; border-radius: 0 10px 10px 0; font-size: .9rem; }
 
+/* Employee Workforce Analytics case-study details */
+.case-detail {
+  margin-top: 2.5rem;
+  padding-top: 2.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.case-detail h3 {
+  margin-bottom: .7rem;
+}
+
+.case-detail h4 {
+  margin-top: 0;
+  margin-bottom: .45rem;
+  color: var(--navy-900);
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+}
+
+.case-detail p {
+  color: var(--muted);
+}
+
+.case-detail ul,
+.case-detail ol {
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.case-detail li {
+  margin-bottom: .45rem;
+}
+
+.case-detail-image {
+  width: 100%;
+  margin-top: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: 0 12px 32px rgba(16, 43, 67, .08);
+}
+
+.case-detail-image:hover {
+  box-shadow: var(--shadow);
+}
+
+.case-detail .case-columns {
+  margin-top: 1.2rem;
+}
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } .button, .skill-card, .project-card { transition: none; } }
