@@ -4,7 +4,7 @@
 
 An end-to-end workforce analytics project developed as part of the Data Analytics Upskill Programme by Generation Ghana.
 
-The project analyses employee demographics, education, employment status, salary and performance data to identify workforce patterns and generate actionable HR insights.
+The project analyses employee demographics, education, employment status, salary and performance data to identify workforce patterns and generate actionable Management insights.
 
 ---
 
@@ -12,7 +12,7 @@ The project analyses employee demographics, education, employment status, salary
 
 ### Business Objective
 
-The objective of this project was to analyse a large employee dataset and transform raw workforce information into meaningful insights that could support HR and management decision-making.
+The objective of this project was to analyse a large employee dataset and transform raw workforce information into meaningful insights that could support management decision-making.
 
 The analysis focused on:
 
@@ -22,6 +22,7 @@ The analysis focused on:
 - Salary distribution
 - Employee performance
 - Departmental workforce patterns
+- Departmental performance
 
 ---
 
@@ -34,9 +35,11 @@ The dataset contains information on:
 - Gender
 - Education
 - Employment status
-- Salary
+- Revenue
+- Health Insurance
 - Performance score
 - Department information
+- And more
 
 ---
 
@@ -47,6 +50,7 @@ The dataset contains information on:
 | Microsoft Excel | Data cleaning and exploratory analysis |
 | MySQL | Data querying and analysis |
 | Power BI | Data visualization and dashboard development |
+| PowerPoint | Final Presentation |
 
 ---
 
@@ -84,7 +88,7 @@ The analysis included:
 
 Power BI was used to transform the analysed data into an interactive dashboard.
 
-The dashboard presents key workforce indicators and allows users to explore employee demographics, education, status, salary and performance.
+The dashboard presents key workforce indicators and allows users to explore employee demographics, education, status, health insurance, revenue, and performance.
 
 ---
 
