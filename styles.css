@@ -1464,4 +1464,38 @@ p {
   .case-jump {
     top: 78px;
   }
+  body {
+  background: #FAF3E0 !important;
+}
+
+.site-header {
+  background: #FAF3E0 !important;
+}
+
+.usp-band,
+.contact-section,
+.case-hero {
+  background: #708090 !important;
+}
+
+h1, h2, h3 {
+  color: #566674 !important;
+}
+
+.eyebrow,
+.hero h1 span,
+.project-meta,
+.text-link {
+  color: #708090 !important;
+}
+
+.button-primary,
+.nav-cta {
+  background: #708090 !important;
+}
+
+.design-section,
+.credentials-section {
+  background: #566674 !important;
+}
 }
