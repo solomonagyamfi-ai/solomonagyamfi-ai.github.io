@@ -1,13 +1,13 @@
 :root {
   --cream: #FFFCEF;
   --blue: #2B5288;
-  --blue-dark: #193B63;
-  --blue-soft: #E8EEF6;
+  --blue-dark: #1F3E68;
+  --blue-light: #EAF0F7;
 
   --white: #FFFFFF;
-  --text: #26384A;
-  --muted: #5E7185;
-  --border: #D4DEE9;
+  --text: #243447;
+  --muted: #64748B;
+  --border: #D9E2EC;
 
   --shadow: 0 18px 50px rgba(43, 82, 136, 0.14);
   --shadow-soft: 0 10px 30px rgba(43, 82, 136, 0.08);
@@ -18,6 +18,7 @@
 
   --max-width: 1180px;
 }
+
 
 /* =========================
    RESET
@@ -56,8 +57,7 @@ textarea {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   margin-top: 0;
   color: var(--blue-dark);
   font-family: "Manrope", sans-serif;
@@ -82,6 +82,7 @@ h3 {
 p {
   margin-top: 0;
 }
+
 
 /* =========================
    ACCESSIBILITY
@@ -114,6 +115,7 @@ p {
   top: 1rem;
 }
 
+
 /* =========================
    GLOBAL LAYOUT
 ========================= */
@@ -138,8 +140,9 @@ p {
 }
 
 .eyebrow-light {
-  color: var(--cream);
+  color: var(--blue-light);
 }
+
 
 /* =========================
    HEADER
@@ -150,7 +153,7 @@ p {
   top: 0;
   z-index: 100;
   border-bottom: 1px solid var(--border);
-  background: rgba(255, 252, 239, 0.96);
+  background: rgba(255, 252, 239, 0.95);
   backdrop-filter: blur(15px);
 }
 
@@ -194,7 +197,6 @@ p {
   font-size: 0.94rem;
   font-weight: 700;
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
 .site-nav a:hover,
@@ -231,6 +233,7 @@ p {
   background: var(--blue-dark);
 }
 
+
 /* =========================
    HERO
 ========================= */
@@ -266,6 +269,7 @@ p {
   gap: 0.85rem;
   margin-bottom: 3rem;
 }
+
 
 /* =========================
    BUTTONS
@@ -313,13 +317,14 @@ p {
 
 .button-light {
   color: var(--blue-dark);
-  background: var(--cream);
+  background: var(--white);
 }
 
 .button-light:hover {
-  color: var(--blue);
-  background: var(--white);
+  color: var(--blue-dark);
+  background: var(--cream);
 }
+
 
 /* =========================
    HERO PROOF
@@ -349,6 +354,7 @@ p {
   font-size: 0.82rem;
 }
 
+
 /* =========================
    HERO VISUAL
 ========================= */
@@ -362,7 +368,7 @@ p {
   position: relative;
   overflow: hidden;
   aspect-ratio: 1 / 1;
-  border: 12px solid var(--blue-soft);
+  border: 12px solid var(--blue-light);
   border-radius: var(--radius-lg);
   background: var(--white);
   box-shadow: var(--shadow);
@@ -396,18 +402,19 @@ p {
 
 .insight-card p {
   margin: 0;
-  color: var(--cream);
+  color: var(--blue-light);
   font-size: 0.84rem;
   line-height: 1.5;
 }
 
 .insight-label {
-  color: var(--cream);
+  color: var(--blue-light);
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+
 
 /* =========================
    ABOUT / USP
@@ -433,9 +440,10 @@ p {
 
 .usp-grid > p {
   margin: 0;
-  color: var(--cream);
+  color: var(--blue-light);
   font-size: 1.1rem;
 }
+
 
 /* =========================
    SECTION HEADINGS
@@ -458,8 +466,9 @@ p {
   color: var(--muted);
 }
 
+
 /* =========================
-   GRAPHIC DESIGN SECTION
+   DESIGN SECTION
 ========================= */
 
 .design-section {
@@ -468,7 +477,7 @@ p {
 }
 
 .design-section .eyebrow {
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .design-section .section-heading h2 {
@@ -476,7 +485,7 @@ p {
 }
 
 .design-section .section-heading > p {
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .design-grid {
@@ -490,19 +499,9 @@ p {
   min-height: 250px;
   padding: 1.6rem;
   color: var(--white);
-  border: 1px solid rgba(255, 252, 239, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-md);
-  background: rgba(255, 252, 239, 0.08);
-  transition:
-    transform 0.25s ease,
-    background 0.25s ease,
-    border 0.25s ease;
-}
-
-.design-card:hover {
-  transform: translateY(-5px);
-  border-color: var(--cream);
-  background: rgba(255, 252, 239, 0.13);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .design-card h3 {
@@ -511,7 +510,7 @@ p {
 
 .design-card p {
   margin: 0;
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .design-icon {
@@ -521,7 +520,7 @@ p {
   place-items: center;
   margin-bottom: 2.5rem;
   color: var(--blue-dark);
-  background: var(--cream);
+  background: var(--blue-light);
   border-radius: 13px;
   font-size: 0.8rem;
   font-weight: 800;
@@ -533,14 +532,14 @@ p {
   justify-content: space-between;
   gap: 1.5rem;
   padding: 1.35rem 1.5rem;
-  border: 1px solid rgba(255, 252, 239, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-md);
-  background: rgba(255, 252, 239, 0.08);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .design-cta p {
   margin: 0;
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .design-portfolio {
@@ -551,8 +550,9 @@ p {
 .design-portfolio-intro {
   max-width: 720px;
   margin-bottom: 2rem;
-  color: var(--cream);
+  color: var(--blue-light);
 }
+
 
 /* =========================
    PRESENTATION
@@ -592,61 +592,181 @@ p {
   font-size: 0.9rem;
 }
 
-/* =========================
+
+/* =========================================================
    DESIGN GALLERY
-========================= */
+   FIXED VERSION
+========================================================= */
 
 .design-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
+  align-items: start;
 }
+
+
+/* =========================
+   DESIGN CARD
+========================= */
 
 .design-piece {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-width: 0;
+
   overflow: hidden;
+
   margin: 0;
-  border: 1px solid rgba(255, 252, 239, 0.2);
+
+  border: 1px solid rgba(43, 82, 136, 0.12);
   border-radius: var(--radius-md);
-  background: rgba(255, 252, 239, 0.08);
+
+  background: var(--white);
+
+  box-shadow: var(--shadow-soft);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
+
+.design-piece:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(43, 82, 136, 0.25);
+
+  box-shadow: var(--shadow);
+}
+
+
+/* =========================
+   DESIGN IMAGE CONTAINER
+========================= */
 
 .design-piece a {
-  display: grid;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
   height: 340px;
-  place-items: center;
-  padding: 0.7rem;
+
+  padding: 1rem;
+
   background: var(--white);
+
+  overflow: hidden;
+
+  text-decoration: none;
 }
 
+
+/* =========================
+   DESIGN IMAGE
+========================= */
+
 .design-piece img {
+  display: block;
+
   width: 100%;
   height: 100%;
+
+  max-width: 100%;
+  max-height: 100%;
+
   object-fit: contain;
-  transition: transform 0.25s ease;
+  object-position: center;
+
+  transition: transform 0.3s ease;
 }
 
 .design-piece a:hover img {
   transform: scale(1.025);
 }
 
+
+/* =========================
+   DESIGN CAPTION
+========================= */
+
 .design-piece figcaption {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem 1.1rem 1.15rem;
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 0.35rem;
+
+  min-height: 92px;
+
+  padding: 1rem 1.15rem 1.2rem;
+
+  background: var(--blue-dark);
 }
+
+
+/* =========================
+   DESIGN TITLE
+========================= */
 
 .design-piece strong {
+  display: block;
+
+  margin: 0;
+
   color: var(--white);
-  font-size: 0.95rem;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 0.98rem;
+
+  font-weight: 800;
+
+  line-height: 1.35;
 }
 
+
+/* =========================
+   DESIGN CATEGORY
+========================= */
+
 .design-piece span {
-  color: var(--cream);
+  display: block;
+
+  margin: 0;
+
+  color: var(--blue-light);
+
   font-size: 0.76rem;
-  text-align: right;
+
+  font-weight: 500;
+
+  line-height: 1.45;
+
+  text-align: left;
 }
+
+
+/* =========================
+   DESIGN PORTFOLIO
+========================= */
+
+.design-portfolio {
+  padding-block: 4rem 6rem;
+  background: var(--blue-dark);
+}
+
+.design-portfolio-intro {
+  max-width: 720px;
+  margin-bottom: 2rem;
+  color: var(--blue-light);
+}
+
 
 /* =========================
    SKILLS
@@ -683,7 +803,7 @@ p {
   place-items: center;
   margin-bottom: 2.6rem;
   color: var(--blue);
-  background: var(--blue-soft);
+  background: var(--blue-light);
   border-radius: 12px;
   font-size: 0.78rem;
   font-weight: 800;
@@ -695,12 +815,13 @@ p {
   font-size: 0.95rem;
 }
 
+
 /* =========================
    PROJECTS
 ========================= */
 
 .projects-section {
-  background: var(--blue-soft);
+  background: var(--blue-light);
 }
 
 .project-filters {
@@ -766,7 +887,7 @@ p {
   width: 100%;
   aspect-ratio: 760 / 440;
   object-fit: cover;
-  background: var(--blue-soft);
+  background: var(--blue-light);
 }
 
 .project-featured > img {
@@ -810,7 +931,7 @@ p {
 .metric-list li {
   display: grid;
   padding: 0.8rem;
-  background: var(--blue-soft);
+  background: var(--blue-light);
   border-radius: 12px;
 }
 
@@ -835,7 +956,7 @@ p {
 .tag-list span {
   padding: 0.35rem 0.6rem;
   color: var(--blue);
-  background: var(--blue-soft);
+  background: var(--blue-light);
   border-radius: 999px;
   font-size: 0.73rem;
   font-weight: 700;
@@ -858,6 +979,7 @@ p {
   justify-content: space-between;
   gap: 0.8rem;
 }
+
 
 /* =========================
    PROCESS
@@ -896,6 +1018,7 @@ p {
   font-size: 0.92rem;
 }
 
+
 /* =========================
    CREDENTIALS
 ========================= */
@@ -912,16 +1035,12 @@ p {
   align-items: center;
 }
 
-.credentials-grid .eyebrow {
-  color: var(--cream);
-}
-
 .credentials-grid h2 {
   color: var(--white);
 }
 
 .credentials-grid p {
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .credential-list {
@@ -934,11 +1053,11 @@ p {
   display: grid;
   gap: 0.15rem;
   padding: 1.05rem 0;
-  border-bottom: 1px solid rgba(255, 252, 239, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .credential-list span {
-  color: var(--cream);
+  color: var(--blue-light);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -949,6 +1068,7 @@ p {
   color: var(--white);
   font-size: 0.98rem;
 }
+
 
 /* =========================
    FEEDBACK
@@ -970,10 +1090,6 @@ p {
   box-shadow: var(--shadow);
 }
 
-.feedback-card .eyebrow {
-  color: var(--cream);
-}
-
 .feedback-card h2 {
   margin-bottom: 0.6rem;
   color: var(--white);
@@ -981,8 +1097,9 @@ p {
 
 .feedback-card p {
   margin: 0;
-  color: var(--cream);
+  color: var(--blue-light);
 }
+
 
 /* =========================
    CONTACT
@@ -1001,17 +1118,13 @@ p {
   align-items: end;
 }
 
-.contact-grid .eyebrow {
-  color: var(--cream);
-}
-
 .contact-grid h2 {
   max-width: 760px;
   color: var(--white);
 }
 
 .contact-grid p {
-  color: var(--cream);
+  color: var(--blue-light);
 }
 
 .contact-links {
@@ -1022,14 +1135,15 @@ p {
 .contact-links a {
   padding-bottom: 0.65rem;
   color: var(--white);
-  border-bottom: 1px solid rgba(255, 252, 239, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-weight: 700;
   text-decoration: none;
 }
 
 .contact-links a:hover {
-  color: var(--cream);
+  color: var(--blue-light);
 }
+
 
 /* =========================
    FOOTER
@@ -1061,6 +1175,7 @@ p {
   text-decoration: none;
 }
 
+
 /* =========================
    CASE STUDIES
 ========================= */
@@ -1077,10 +1192,6 @@ p {
   place-items: center;
 }
 
-.case-hero .eyebrow {
-  color: var(--cream);
-}
-
 .case-hero h1 {
   max-width: 980px;
   margin-bottom: 1.4rem;
@@ -1090,7 +1201,7 @@ p {
 
 .case-hero p:last-child {
   max-width: 760px;
-  color: var(--cream);
+  color: var(--blue-light);
   font-size: 1.08rem;
 }
 
@@ -1102,7 +1213,7 @@ p {
   gap: 0.55rem;
   padding-block: 1rem;
   overflow-x: auto;
-  background: rgba(255, 252, 239, 0.97);
+  background: rgba(255, 252, 239, 0.96);
   backdrop-filter: blur(15px);
 }
 
@@ -1166,7 +1277,7 @@ p {
 
 .case-columns section {
   padding: 1.2rem;
-  background: var(--blue-soft);
+  background: var(--blue-light);
   border-radius: var(--radius-sm);
 }
 
@@ -1217,6 +1328,7 @@ p {
   font-size: 0.9rem;
 }
 
+
 /* =========================
    EMPLOYEE WORKFORCE DETAILS
 ========================= */
@@ -1258,7 +1370,7 @@ p {
   margin-top: 1.4rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  background: var(--blue-soft);
+  background: var(--blue-light);
   box-shadow: var(--shadow-soft);
 }
 
@@ -1269,6 +1381,7 @@ p {
 .case-detail .case-columns {
   margin-top: 1.2rem;
 }
+
 
 /* =========================
    ANIMATION
@@ -1288,6 +1401,7 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   html {
     scroll-behavior: auto;
   }
@@ -1301,16 +1415,18 @@ p {
   .button,
   .skill-card,
   .project-card,
-  .design-card {
+  .design-piece {
     transition: none;
   }
 }
+
 
 /* =========================
    TABLET
 ========================= */
 
 @media (max-width: 960px) {
+
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -1336,9 +1452,12 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .design-grid,
-  .design-gallery {
+  .design-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .design-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .project-featured {
@@ -1365,13 +1484,19 @@ p {
     position: static;
     max-width: 680px;
   }
+
+  .design-piece a {
+    height: 340px;
+  }
 }
+
 
 /* =========================
    MOBILE
 ========================= */
 
 @media (max-width: 720px) {
+
   .section-shell,
   .nav-shell {
     width: min(calc(100% - 1.5rem), var(--max-width));
@@ -1390,12 +1515,17 @@ p {
     top: 78px;
     left: 0;
     right: 0;
+
     display: none;
+
     align-items: stretch;
     flex-direction: column;
     gap: 0;
+
     padding: 0.7rem 1rem 1.2rem;
+
     border-bottom: 1px solid var(--border);
+
     background: var(--cream);
   }
 
@@ -1434,18 +1564,38 @@ p {
     grid-template-columns: 1fr;
   }
 
-  .design-grid,
-  .design-gallery {
+  .design-grid {
     grid-template-columns: 1fr;
   }
 
-  .design-piece a {
-    height: 390px;
+  /* DESIGN PORTFOLIO MOBILE */
+
+  .design-gallery {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
-  .design-cta {
-    align-items: flex-start;
-    flex-direction: column;
+  .design-piece {
+    width: 100%;
+  }
+
+  .design-piece a {
+    width: 100%;
+    height: 390px;
+    padding: 0.9rem;
+  }
+
+  .design-piece figcaption {
+    min-height: auto;
+    padding: 1rem 1.1rem 1.15rem;
+  }
+
+  .design-piece strong {
+    font-size: 1rem;
+  }
+
+  .design-piece span {
+    font-size: 0.78rem;
   }
 
   .presentation-frame {
@@ -1506,4 +1656,57 @@ p {
   .case-jump {
     top: 78px;
   }
+}
+
+
+/* =========================
+   EXTRA SMALL DEVICES
+========================= */
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding-block: 3rem;
+  }
+
+  .hero-visual {
+    padding-bottom: 3.5rem;
+  }
+
+  .insight-card {
+    position: relative;
+    right: auto;
+    bottom: auto;
+
+    width: 90%;
+
+    margin: -2rem auto 0;
+
+    z-index: 2;
+  }
+
+  .design-piece a {
+    height: 350px;
+  }
+
+  .design-piece figcaption {
+    padding: 1rem;
+  }
+
+  .project-body {
+    padding: 1.25rem;
+  }
+
+  .feedback-card {
+    padding: 1.5rem;
+  }
+
 }
