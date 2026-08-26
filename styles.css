@@ -1710,3 +1710,31 @@ p {
   }
 
 }
+/* =========================
+   BACK TO TOP
+========================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color .2s ease,
+    transform .2s ease;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  color: var(--blue-dark);
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
