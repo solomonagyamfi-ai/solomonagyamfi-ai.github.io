@@ -1026,7 +1026,7 @@ p {
 
 /* =========================================================
    PROJECT ACTION BUTTONS
-   SAME SHAPE + GRADIENT AS POWERPOINT BUTTON
+   ALL PROJECT LINKS NOW USE SAME STYLE
 ========================================================= */
 
 .project-links {
@@ -1039,8 +1039,22 @@ p {
 }
 
 
-/* Main project buttons */
+/*
+   This applies the gradient button style to:
 
+   1. Ghana Adventures "Read the case study"
+   2. Ghana Adventures "View presentation"
+   3. Employee Workforce "Read the case study"
+   4. HR Operations "Read the case study"
+   5. Customer Orders "Read the case study"
+   6. FreshMart "Read the case study"
+   7. DataPulse "Read the case study"
+
+   No HTML changes required.
+*/
+
+.project-links .text-link,
+.project-body > .text-link,
 .project-links .button,
 .project-links a.button,
 .project-body .button,
@@ -1052,6 +1066,8 @@ p {
   justify-content: center;
 
   min-height: 48px;
+
+  width: fit-content;
 
   padding: 0.75rem 1.35rem;
 
@@ -1069,6 +1085,8 @@ p {
 
   font-weight: 800;
 
+  line-height: 1.2;
+
   text-decoration: none;
 
   box-shadow:
@@ -1081,8 +1099,12 @@ p {
 }
 
 
-/* Hover */
+/* =========================
+   PROJECT BUTTON HOVER
+========================= */
 
+.project-links .text-link:hover,
+.project-body > .text-link:hover,
 .project-links .button:hover,
 .project-links a.button:hover,
 .project-body .button:hover,
@@ -1093,8 +1115,8 @@ p {
   background:
     linear-gradient(
       135deg,
-      var(--blue-dark),
-      var(--blue)
+      var(--blue-dark) 0%,
+      var(--blue) 100%
     );
 
   transform: translateY(-3px);
@@ -1104,8 +1126,12 @@ p {
 }
 
 
-/* Focus */
+/* =========================
+   PROJECT BUTTON FOCUS
+========================= */
 
+.project-links .text-link:focus-visible,
+.project-body > .text-link:focus-visible,
 .project-links .button:focus-visible,
 .project-links a.button:focus-visible,
 .project-body .button:focus-visible,
@@ -1131,70 +1157,12 @@ p {
   text-decoration: none;
 }
 
-.text-link:hover {
-  color: var(--blue-dark);
-}
 
-
-/* =========================================================
-   TEXT LINK → PROJECT BUTTON
-========================================================= */
-
-.project-links .text-link {
-
-  display: inline-flex;
-
-  align-items: center;
-  justify-content: center;
-
-  min-height: 48px;
-
-  padding: 0.75rem 1.35rem;
-
-  width: fit-content;
-
-  color: var(--white);
-
-  background:
-    linear-gradient(
-      135deg,
-      var(--blue),
-      var(--blue-dark)
-    );
-
-  border-radius: 999px;
-
-  font-size: 0.9rem;
-
-  font-weight: 800;
-
-  text-decoration: none;
-
-  box-shadow:
-    0 8px 20px rgba(43, 82, 136, 0.18);
-
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    background 0.25s ease;
-}
-
-.project-links .text-link:hover {
-
-  color: var(--white);
-
-  background:
-    linear-gradient(
-      135deg,
-      var(--blue-dark),
-      var(--blue)
-    );
-
-  transform: translateY(-3px);
-
-  box-shadow:
-    0 12px 28px rgba(43, 82, 136, 0.25);
-}
+/*
+   IMPORTANT:
+   Project case-study links override the
+   normal text-link appearance above.
+*/
 
 
 /* =========================
@@ -1799,6 +1767,7 @@ p {
   .skill-card,
   .project-card,
   .design-piece {
+
     transition: none;
   }
 }
@@ -2060,7 +2029,9 @@ p {
   }
 
 
-  /* PROJECT BUTTONS ON MOBILE */
+  /* =========================
+     PROJECT BUTTONS MOBILE
+  ========================= */
 
   .project-links {
     align-items: stretch;
@@ -2068,10 +2039,18 @@ p {
     flex-direction: column;
   }
 
+  .project-links .text-link,
   .project-links .button,
   .project-links a.button,
-  .project-links .text-link {
+  .project-body > .text-link,
+  .project-body .button,
+  .project-body a.button {
+
     width: 100%;
+
+    min-height: 48px;
+
+    justify-content: center;
   }
 }
 
@@ -2128,9 +2107,13 @@ p {
     padding: 1.5rem;
   }
 
+  .project-links .text-link,
   .project-links .button,
   .project-links a.button,
-  .project-links .text-link {
+  .project-body > .text-link,
+  .project-body .button,
+  .project-body a.button {
+
     width: 100%;
   }
 }
