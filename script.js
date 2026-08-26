@@ -50,3 +50,17 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
 const yearElement = document.querySelector('#current-year');
 if (yearElement) yearElement.textContent = new Date().getFullYear();
 
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTop = document.querySelector(".back-to-top");
+
+  if (backToTop) {
+    backToTop.addEventListener("click", function (event) {
+      event.preventDefault();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
+});
